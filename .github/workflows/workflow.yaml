@@ -6,3 +6,5 @@ on:
 jobs:
   re_usable:
     uses: ./.github/workflows/reusable.yaml
+    with:
+      custom_script: echo "Custom Script"

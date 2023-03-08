@@ -1,0 +1,8 @@
+name: Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  re_usable:
+    uses: ./reusable.yaml@master
